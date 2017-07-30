@@ -2,7 +2,12 @@
 
 Requirements :
 1. Python2.7
-2. The following modeules (selenium, bs4, json, csv, random)
+2. The following modeules :
+    a. Selenium : ortable software-testing framework for web applications
+    b. bs4      : Helps in easy code parsing of webpage
+    c. json     : Linkedin webpages requires json handling
+    d. csv      : To append your data to a csv
+    e. random   : Handling random numbers
 
 Brief Desription :
 This scraper gives you the basic information and contact info of the profile(if present) on providing the profile url.
