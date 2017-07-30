@@ -101,7 +101,7 @@ def main():
     driver.find_element_by_id("login-submit").click()
     c = 'y'
     while (c=='y'):
-        anchor = raw_input("Copy/Paste the profile links :")
+        anchor = raw_input("Paste the profile link :")
         getData(anchor, driver)
         c = raw_input("Press 'y' to continue: ")
 
