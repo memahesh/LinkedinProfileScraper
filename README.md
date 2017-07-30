@@ -17,25 +17,36 @@
     data.csv               : Data is stored into this file
 
 ## How to use :
-    Step 1: 
-    Run the python code in your terminal or command prompt (preferably).
-    ```
-    cd <file path to the location>
-    python <filename>
-    ```
-    Step 2: 
-    You will be asked to give your Linkedin Credentials. It is entirely safe to give your credentials. No one is storing         them.
-    ```
-    Linkedin Username : username
-    Linkedin Password : password
-    ```
-    After logging in, there will be a prompt for profile link
-    ```
-    Paste the profile link :
-    ```
-    Step 3:
-    Copy and Paste (Ctrl+Shift+V for cmd or terminal) the profile link.
-    The basic description of profile and contact info (if present) will be stored in data.csv
+
+- **Step 1:**
+
+Run the python code in your terminal or command prompt (preferably).
+
+```
+cd <file path to the location>
+python <filename>
+```
+
+- **Step 2:**
+
+You will be asked to give your Linkedin Credentials. It is entirely safe to give your credentials. No one is storing         them.
+
+```
+Linkedin Username : username
+Linkedin Password : password
+```
+
+After logging in, there will be a prompt for profile link
+
+```
+Paste the profile link : linkedinprofilelink
+```
+
+- **Step 3:**
+
+    i. Copy and Paste (Ctrl+Shift+V for cmd or terminal) the profile link.
+    
+    ii. The basic description of profile and contact info (if present) will be stored in data.csv
 
 ## Other Details :
     1. Continue the loop to scrape as many profiles as you wish in a single login.
