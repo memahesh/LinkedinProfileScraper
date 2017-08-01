@@ -2,7 +2,8 @@
 
 ## Requirements :
     1. Python2.7
-    2. The following modeules :
+    2. ChromeDriver
+    3. The following modules :
         - Selenium : Portable software-testing framework for web applications
         - bs4      : Helps in easy code parsing of webpage
         - json     : Linkedin webpages requires json handling
@@ -14,7 +15,10 @@
 
 ## Files :
     linkedin_profile.py    : Python code to scrape the linkedin data.
-    data.csv               : Data is stored into this file
+    data.csv               : Data is stored into this file.
+    chromedriver.exe       : ChromeDriver is a separate executable that WebDriver uses to control Chrome.
+                             (There are drivers available for other browsers too. However, I am using ChromeDriver.)
+Visit [here](http://docs.seleniumhq.org/download/) to download drivers for other browsers and know more about Selenium.
 
 ## How to use :
 
