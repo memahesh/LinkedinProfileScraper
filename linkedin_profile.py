@@ -93,7 +93,7 @@ def main():
     # chrome_options.add_argument('--proxy-server=210.38.1.139:8080')
     username = raw_input("Linkedin Username :")
     password = raw_input("Linkedin Password :")
-    driver = webdriver.Chrome('/home/mahesh/PycharmProjects/Scrapers/linkedin/chromedriver', chrome_options=chrome_options)
+    driver = webdriver.Chrome('chromedriver', chrome_options=chrome_options)
     driver.get('https://www.linkedin.com/')
     driver.set_page_load_timeout(30)
     driver.find_element_by_name("session_key").send_keys(username)
