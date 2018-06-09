@@ -40,19 +40,21 @@ Linkedin Username : username
 Linkedin Password : password
 ```
 
-After logging in, there will be a prompt for profile link
+- **Step 3:**
+
+After logging in, there will be a prompt for profile link. Copy and Paste the profile link.
+    
+
 
 ```
 Paste the profile link : linkedinprofilelink
 ```
 
-- **Step 3:**
+Voila, the basic description of profile and contact info (if present) will be stored in data.csv
 
-    i. Copy and Paste (Ctrl+Shift+V for cmd or terminal) the profile link.
-    
-    ii. The basic description of profile and contact info (if present) will be stored in data.csv
+
 
 ## Other Details :
     1. Continue the loop to scrape as many profiles as you wish in a single login.
-    2. A new row is added for every new profil scraped. So, no need to worry for the loss of data.
+    2. A new row is added for every new profile scraped. So, no need to worry for the loss of data.
     3. Since, it's a Selenium webDriver system, you can see whatever is happening with the browser.
