@@ -1,5 +1,5 @@
 # LinkedinProfileScraper
-
+`***The code is outdated to the latest version of LinkedIn***`
 ## Requirements :
     1. Python2.7
     2. ChromeDriver
